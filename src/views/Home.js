@@ -1,7 +1,4 @@
-import axios from 'axios'
 import React, { useState } from 'react'
-
-const SERVER = 'https://app.fakejson.com/q'
 
 const Home = ({ setLastName, updateShowForm }) => {
   const [flightNumber, setFlightNumber] = useState('')

@@ -40,6 +40,7 @@ const Form = ({ lastName, setLastName, updateShowSuccess }) => {
         email,
         phoneNumber,
         passportNumber,
+        residenceCountry,
         residenceCity,
         residenceAddress,
         birthDate,
