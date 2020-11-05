@@ -1,0 +1,37 @@
+.view {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+}
+
+.view h1 {
+  font-size: 1.25rem;
+}
+
+.view input,
+.view select {
+  background: #e1e1e1;
+}
+
+.view input[type='text'],
+.view input[type='email'],
+.view input[type='number'] {
+  width: 18rem;
+}
+
+.view button {
+  background: #47478a;
+  color: white;
+  padding: 8px;
+}
+/*# sourceMappingURL=style.css.map */

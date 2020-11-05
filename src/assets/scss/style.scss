@@ -1,0 +1,30 @@
+.view {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  input,
+  select {
+    background: rgba(225, 225, 225, 1);
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='number'] {
+    width: 18rem;
+  }
+
+  button {
+    background: rgb(71, 71, 138);
+    color: white;
+    padding: 8px;
+  }
+}
